@@ -27,30 +27,34 @@ class Test3 {
             switch (a){
                 case 1 : answer += "w";
                     System.out.println("==================");
-                    System.out.println(numLog[i]);
                     System.out.println(numLog[i-1]);
+                    System.out.println(numLog[i]);
+                    System.out.println(a);
                     System.out.println(answer);
                     System.out.println("==================");
                     break;
 
                 case -1 : answer += "s";
                     System.out.println("==================");
-                    System.out.println(numLog[i]);
                     System.out.println(numLog[i-1]);
+                    System.out.println(numLog[i]);
+                    System.out.println(a);
                     System.out.println(answer);
                     System.out.println("==================");
                     break;
                 case 10 : answer += "d";
                     System.out.println("==================");
-                    System.out.println(numLog[i]);
                     System.out.println(numLog[i-1]);
+                    System.out.println(numLog[i]);
+                    System.out.println(a);
                     System.out.println(answer);
                     System.out.println("==================");
                     break;
                 case -10 : answer += "a";
                     System.out.println("==================");
-                    System.out.println(numLog[i]);
                     System.out.println(numLog[i-1]);
+                    System.out.println(numLog[i]);
+                    System.out.println(a);
                     System.out.println(answer);
                     System.out.println("==================");
                     break;
